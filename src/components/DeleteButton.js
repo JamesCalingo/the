@@ -1,19 +1,19 @@
 import React from "react";
-import { useMutation } from "@apollo/client";
+// import { useMutation } from "@apollo/client";
 import { Button } from "react-bootstrap";
-import gql from "graphql-tag";
+// import gql from "graphql-tag";
 import Swal from "sweetalert2"
 
 export default function ReportButton({ id, flagged }) {
-  const DELETE_MESSAGE = gql`
-    mutation deleteMessage($messageID: ID!) {
-      deleteMessage(messageID: $messageID) 
-    }
-  `;
+  // const DELETE_MESSAGE = gql`
+  //   mutation deleteMessage($messageID: ID!) {
+  //     deleteMessage(messageID: $messageID) 
+  //   }
+  // `;
 
-  const [deleteMessage] = useMutation(DELETE_MESSAGE, {
-    variables: { messageID: id },
-  });
+  // const [deleteMessage] = useMutation(DELETE_MESSAGE, {
+  //   variables: { messageID: id },
+  // });
 
 
 
