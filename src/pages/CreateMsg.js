@@ -42,7 +42,7 @@ export default function CreateMsg() {
           id="message"
         />
         <br />
-        <button type="submit" className="btn mb-5">Submit Message</button>
+        <button type="submit" className="btn btn-primary btn-lg mt-3 mb-5">Submit Message</button>
         <br />
        
       </form>
