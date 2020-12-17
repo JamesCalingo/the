@@ -16,9 +16,9 @@ function App () {
       <Nav />
 
    
-      <Route exact path='/' component={Welcome} />
+      <Route exact path='/' component={MessageList} />
       <Route exact path="/story" component={Story} />
-      <Route exact path='/messages' component={MessageList} />
+      <Route exact path='/messages' component={Welcome} />
       <Route exact path='/create' component={CreateMsg} />
       <Route exact path='/update/:id' component={UpdateMessage} />
       <Route exact path='/admin' component={Admin} />
