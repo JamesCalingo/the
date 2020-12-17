@@ -1,0 +1,21 @@
+*{
+  font-family: sans-serif;
+
+}
+
+nav, nav div, nav li {
+  background: orange;
+  font-size: 18pt
+}
+
+h1, .logo{
+  font-family: 'Indie Flower';
+}
+
+.logo{
+  font-size: 24pt;
+}
+
+textarea{
+  width: 65%
+}
