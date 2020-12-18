@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { useQuery } from "@apollo/client";
 import { FETCH_MESSAGES } from '../utils/queries'
 import AdminListItem from "../components/AdminListItem";
-
+import Swal from "sweetalert2"
 
 export default function Admin() {
   const { loading, data } = useQuery(FETCH_MESSAGES);
