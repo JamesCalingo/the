@@ -5,7 +5,7 @@ import gql from "graphql-tag";
 import MessageListItem from "../components/MessageListItem";
 
 export default function MessageList() {
-  const { loading, data } = useQuery(FETCH_MESSAGES);
+  const { loading, data, error } = useQuery(FETCH_MESSAGES);
 
   if (data) {
     console.log(data);
@@ -22,7 +22,9 @@ export default function MessageList() {
       </select> */}
       <ul className="list-unstyled">
         {loading ? (
-          <h1>loading...</h1>
+          <h1 className="text-center">loading...</h1>
+        ) : error ? (
+          <h1>Whoops! an error occured.</h1>
         ) : (
           data.getMessages
             .filter((message) => message.flagged === false)
