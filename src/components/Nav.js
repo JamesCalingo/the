@@ -3,7 +3,7 @@ import React from 'react'
 function Nav() {
   return(
 <nav className="navbar navbar-expand-lg mb-3">
-  <a className="logo mr-5" href="/">The Encouragement Network</a>
+  <a className="logo logo-nav mr-5" href="/">The Encouragement Network</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>

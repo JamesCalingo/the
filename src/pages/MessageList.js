@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useQuery } from "@apollo/client";
-import gql from "graphql-tag";
+import  { FETCH_MESSAGES } from '../utils/queries'
 import MessageListItem from "../components/MessageListItem";
 
 export default function MessageList() {
@@ -42,14 +42,3 @@ export default function MessageList() {
   );
 }
 
-const FETCH_MESSAGES = gql`
-  {
-    getMessages {
-      id
-      body
-      createdAt
-      likes
-      flagged
-    }
-  }
-`;

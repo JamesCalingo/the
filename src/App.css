@@ -8,11 +8,11 @@ nav, nav div, nav li {
   font-size: 18pt
 }
 
-h1, .logo{
+.logo{
   font-family: 'Indie Flower';
 }
 
-.logo{
+.logo-nav{
   font-size: 24pt;
 }
 

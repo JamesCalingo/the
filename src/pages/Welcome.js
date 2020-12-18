@@ -3,8 +3,8 @@ import React from "react"
 export default function Welcome() {
   return(
     <div className="mx-5">
-      <h1 className='text-center display-3'>Welcome to<br />The Encouragement Network!</h1>
-      <h2 className='text-center mb-3'>
+      <h1 className='text-center display-3 logo'>Welcome to<br />The Encouragement Network!</h1>
+      <h2 className='logo text-center mb-3'>
         A place for people to leave encouraging messages for one another!
       </h2>
 
