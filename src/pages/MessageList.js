@@ -14,12 +14,12 @@ export default function MessageList() {
   return (
     <div className="container">
       <h1>Messages of Encouragement from around the world!</h1>
-      <label htmlFor="sortBy">Sort messages by:</label>
+      {/* <label htmlFor="sortBy">Sort messages by:</label>
       <select className="form-control mb-5">
         <option>Newest First</option>
         <option>Oldest First</option>
         <option>Most Likes</option>
-      </select>
+      </select> */}
       <ul className="list-unstyled">
         {loading ? (
           <h1>loading...</h1>
