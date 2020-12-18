@@ -30,7 +30,7 @@ export default function Welcome() {
       <p>You can email me at <a href="mailto:james.calingo.web@gmail.com">james.calingo.web@gmail.com</a>.</p>
 
       <h3 className="text-center">If you're ready to dive in, <a href="/messages">View the current set of messages here</a>! Or, if you want to submit a message for others yourself, <a href="/create">You can do that here</a>!</h3>
-      <a className="github-link" href='https://github.com/JamesCalingo/the-encouragement/network'>Github</a>
+      <a className="github-link" href='https://github.com/JamesCalingo/theEncouragementNetwork'>Github</a>
     </div>
   )
 }

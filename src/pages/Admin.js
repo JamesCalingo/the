@@ -6,7 +6,7 @@ import AdminListItem from "../components/AdminListItem";
 import Swal from "sweetalert2"
 
 export default function Admin() {
-  const { loading, data } = useQuery(FETCH_MESSAGES);
+  const { loading, data, error } = useQuery(FETCH_MESSAGES);
 
   if (data) {
     console.log(data);
@@ -28,6 +28,8 @@ export default function Admin() {
       <ul className="list-unstyled">
         {loading ? (
           <h1>loading...</h1>
+        ) : error? (
+          <h1>There's a problem! An error occured.</h1>
         ) : (
           data.getMessages
           .filter(message => message.flagged)

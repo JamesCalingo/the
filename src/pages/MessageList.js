@@ -22,7 +22,7 @@ export default function MessageList() {
       </select> */}
       <ul className="list-unstyled">
         {loading ? (
-          <h1 className="text-center">loading...</h1>
+          <h1 className="text-center logo">loading...</h1>
         ) : error ? (
           <h1>Whoops! an error occured.</h1>
         ) : (
