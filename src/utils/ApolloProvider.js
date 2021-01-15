@@ -8,7 +8,7 @@ import {
 } from "@apollo/client";
 
 const httpLink = createHttpLink({
-  uri: "https://theencouragementnetwork-server.herokuapp.com/",
+  uri: "https://theencouragementnetwork-server.herokuapp.com/graphql",
 });
 
 const client = new ApolloClient({
