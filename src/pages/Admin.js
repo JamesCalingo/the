@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom"
 import { useQuery } from "@apollo/client";
-import { FETCH_MESSAGES } from '../utils/queries'
+import { FETCH_MESSAGES } from '../utils/graphQL'
 import AdminListItem from "../components/AdminListItem";
 import Swal from "sweetalert2"
 

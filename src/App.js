@@ -7,6 +7,8 @@ import UpdateMessage from "./pages/UpdateMessage";
 import Nav from "./components/Nav";
 import Welcome from "./pages/Welcome";
 import Admin from "./pages/Admin";
+import Register from "./pages/Register"
+import Login from "./pages/Login"
 
 import "./App.css";
 
