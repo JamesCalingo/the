@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import gql from "graphql-tag";
+import { POST_MESSAGE} from "../utils/graphQL";
 import { useForm } from "../utils/hooks";
 import { useMutation } from "@apollo/client";
 
@@ -51,14 +51,4 @@ export default function CreateMsg() {
   );
 }
 
-const POST_MESSAGE = gql`
-  mutation postMessage($body: String!) {
-    postMessage(body: $body) {
-      id
-      body
-      createdAt
-      likes
-      flagged
-    }
-  }
-`;
+
