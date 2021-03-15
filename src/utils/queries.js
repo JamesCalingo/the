@@ -11,3 +11,15 @@ export const FETCH_MESSAGES = gql`
     }
   }
 `;
+
+export const POST_MESSAGE = gql`
+  mutation postMessage($body: String!) {
+    postMessage(body: $body) {
+      id
+      body
+      createdAt
+      likes
+      flagged
+    }
+  }
+  `
