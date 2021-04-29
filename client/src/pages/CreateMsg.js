@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { POST_MESSAGE} from "../utils/graphQL";
+import {POST_MESSAGE} from "../utils/queries"
 import { useForm } from "../utils/hooks";
 import { useMutation } from "@apollo/client";
 
